@@ -12,8 +12,8 @@
     <EditText
 
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="E-mail"
+        android:layout_height="50dp"
+        android:hint="Username or Email"
         android:inputType="text"
         android:textSize="14sp"
         android:id="@+id/emailTextView"
@@ -21,7 +21,7 @@
         />
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="Password"
         android:inputType="textPassword"
         android:textSize="14sp"
@@ -32,17 +32,34 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffff"
         android:text="Login"
         android:onClick="login"
+        android:textAllCaps="false"
 
         />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="No Account ?"
+        android:text="Create a new account"
+        android:background="#00FFFFFF"
         android:onClick="register"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimaryDark"
 
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wrong Email or Password"
+        android:id="@+id/errorAlert"
+        android:textSize="10dp"
+        android:textColor="@color/colorAccent"
         />
 
 

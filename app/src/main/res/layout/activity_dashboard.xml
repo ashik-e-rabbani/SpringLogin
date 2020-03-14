@@ -5,12 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".dashboard">
 
     <TextView
+        android:id="@+id/parsedData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="WELCOME"
-        android:textSize="18sp"
+        android:text="Logged Successfuly"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14sp"
         />
+
 </LinearLayout>

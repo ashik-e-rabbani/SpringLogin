@@ -12,7 +12,7 @@
     <EditText
 
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="Name"
         android:inputType="text"
         android:textSize="14sp"
@@ -22,8 +22,8 @@
     <EditText
 
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Email"
+        android:layout_height="50dp"
+        android:hint="Username or Email"
         android:inputType="text"
         android:textSize="14sp"
         android:id="@+id/emailTextView"
@@ -33,7 +33,7 @@
     <EditText
 
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="Phone"
         android:inputType="number"
         android:textSize="14sp"
@@ -42,7 +42,7 @@
         />
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="Password"
         android:inputType="textPassword"
         android:textSize="14sp"
@@ -57,6 +57,9 @@
         android:layout_height="wrap_content"
         android:text="Register"
         android:onClick="register"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffff"
 
         />
 
@@ -65,6 +68,9 @@
         android:layout_height="wrap_content"
         android:text="Already Account ?"
         android:onClick="login"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAllCaps="false"
+        android:background="#00FFFFFF"
 
         />
 
